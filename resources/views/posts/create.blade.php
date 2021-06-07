@@ -34,9 +34,8 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group" id="select-container">
-                    <strong>Description:</strong>
-                    <select id="myMulti" multiple name="description" onChange="addTag(value)">
-                        <option disabled>Choose Genres:</option>
+                    <strong>Choose Genre:</strong>
+                    <select id="myMulti" name="description" onChange="addTag(value)">
                         <option value="Action">Action</option>
                         <option value="Adventure">Adventure</option>
                         <option value="Comedy">Comedy</option>
